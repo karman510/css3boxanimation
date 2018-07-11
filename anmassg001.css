@@ -1,0 +1,76 @@
+/* The animation code */
+@keyframes example {
+    0%   {left:0px; top:50px;}   
+    14%  {left:400px; top:50px;}
+    28%  {left:400px; top:450px;}
+    42%  {left:200px; top:450px;}
+    56%  {left:200px; top:50px;}
+    70%  {left:0px; top:50px;}
+    100% {left:0px; top:250px;}
+}
+/* The element to apply the animation to */
+.black {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    background-color: black;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 8s;
+    /*animation-fill-mode: backwards;*/
+    animation-fill-mode: forwards;
+}
+
+
+/* The element to apply the animation to */
+.red {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 8s;
+    /*animation-delay: 2s;*/
+    animation-fill-mode: forwards;
+    /*animation-fill-mode: backwards;*/
+}
+/* The element to apply the animation to */
+.green {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    background-color: green;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    /*animation-fill-mode: backwards;*/
+}/* The element to apply the animation to */
+.blue {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    /*animation-fill-mode: backwards;*/
+}
+/* The element to apply the animation to */
+.yellow {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    background-color: yellow;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    /*animation-fill-mode: backwards;*/
+}
